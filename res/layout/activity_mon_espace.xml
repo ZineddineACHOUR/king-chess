@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/Pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/MonEspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Mon Espace"
+        android:textColor="#21dbd4"
+        android:textSize="40dip"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:id="@+id/ModifierCompte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Modifier mon compte" />
+
+    <Button
+        android:id="@+id/SupprimerCompte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supprimer mon compte" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#3b3b3b" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/AncienPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text="Ancien mot de passe" />
+
+            <EditText
+                android:id="@+id/ancienMP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:password="true"/>
+
+            <TextView
+                android:id="@+id/NouveauPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Nouveau mot de passe" />
+
+            <EditText
+                android:id="@+id/NouveauMP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:password="true" />
+
+            <TextView
+                android:id="@+id/ConfirmerPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Confirmation" />
+
+            <EditText
+                android:id="@+id/ConfirmerMP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:password="true"
+                />
+            
+            <TextView 
+                android:id="@+id/Reponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="15dp"
+                android:textColor="#e30000"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+
+            <Button
+                android:id="@+id/Enregistrer"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="120dp"
+                android:text="Enregistrer" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidChess</string>
+    <string name="app_name">KingChess</string>
+   
+     
+     <color name="BLUE"> #004D60</color>
+    <color name="TEAl"> #008299</color>
+    <color name="RED"> #BF1E4B</color>
+    <color name="GREEN">#77B900</color>
+    <color name="VIOLET">#B81B6C</color>
+    <color name="BLUEKING">#2E8DEF</color>
+    <color name="GRAI"> #6E7E94 </color>
+    <color name="BLUESKY">#1FAEFF</color>
+    <color name="Orange">#FF981D</color>
+    <color name="ORANGEBLOGGER">#FE7C22</color>
+    <color name="YoutubeRED">#FF2E12</color>
+    <color name="TwitterColor"> #4099FF</color>
+    <color name="BLANC">#FFF</color>
+    
+     <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="d">d</string>
+    <string name="e">e</string>
+    <string name="f">f</string>
+    <string name="g">g</string>
+    <string name="h">h</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#01B0F0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+
+    </style>
+</resources>

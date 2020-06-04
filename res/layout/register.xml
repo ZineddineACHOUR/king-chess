@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!-- View Title Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Nouveau Compte"
+            
+            android:textSize="25dip"
+            android:textStyle="bold"  />
+        <!-- Name Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pseudo" 
+           />
+        <!-- Name TextField -->
+
+        <EditText
+            android:id="@+id/EnregPseudo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/verifPseudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:textColor="#e30000"
+                android:textStyle="bold"
+                 />
+
+            <Button
+                android:id="@+id/btnVerifier"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verifier" 
+                android:layout_marginLeft="50dp"
+                 
+                />
+               </LinearLayout>
+               <!-- Email Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom" 
+                />
+            <!-- Email TextField -->
+
+            <EditText
+                android:id="@+id/EnregNom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Prenom"
+                 />
+
+            <EditText
+                android:id="@+id/EnregPrenom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Date de naissance (jj/mm/aaaa)"
+                />
+
+            <EditText
+                android:id="@+id/EnregDns"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Email" 
+                />
+
+            <!-- Password TextField -->
+
+            <EditText
+                android:id="@+id/EnregEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Mobile" 
+                />
+
+            <!-- Password TextField -->
+
+            <EditText
+                android:id="@+id/EnregMobile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Mot de Pass"
+                 />
+
+            <!-- Password TextField -->
+
+            <EditText
+                android:id="@+id/EnregPassw"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Confirmation"
+                 />
+            <!-- Password TextField -->
+
+            <EditText
+                android:id="@+id/ConfirmPass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true" />
+
+            <!-- Error message -->
+
+            <TextView
+                android:id="@+id/register_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:textColor="#e30000"
+                android:textStyle="bold"
+                 />
+
+            <!-- Login Button -->
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="Enregistrer"
+                 />
+
+            <!-- Link to Login Screen -->
+
+            <Button
+                android:id="@+id/btnLinkToLoginScreen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@null"
+                android:text="Déjas inscrit , Connexion!"
+                android:textColor="#21dbd4"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+</ScrollView>

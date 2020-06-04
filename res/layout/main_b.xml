@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundmenu"
+    android:orientation="vertical" >
+    
+    
+   
+
+    <Button
+        android:id="@+id/ceConnecter"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80px"
+        android:text="Connexion"
+        android:textStyle="italic|bold"
+         />
+    
+     <Button
+        android:id="@+id/jouerEnLocal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0px"
+        android:text="Jouer en Local"
+        android:textStyle="italic|bold" />
+    
+        <Button
+        android:id="@+id/regleDeJeu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0px"
+        android:text="Regles de jeu"
+        android:textStyle="italic|bold" />
+
+
+    <Button
+        android:id="@+id/apropos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0px"
+        android:text="Apropos"
+        android:textStyle="italic|bold" />
+   
+
+</LinearLayout>

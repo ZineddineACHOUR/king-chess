@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b" >
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="430dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/idCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="Modifier Compte" 
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="80dp"/>
+
+</LinearLayout>
+
+</ScrollView>

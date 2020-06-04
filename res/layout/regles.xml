@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/flipper" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"> 
+      
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/regle">  
+		<TextView 
+			android:id="@+id/tv1" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="Page 1"
+			
+			android:textColor="#000000"
+			/> 
+	</LinearLayout> 
+	    
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/regle">  
+		<TextView 
+			android:id="@+id/tv2" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="Page 2"
+			android:textColor="#000000"
+			/> 
+	</LinearLayout> 
+		<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/regle">  
+		<TextView 
+			android:id="@+id/tv3" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="Page 3"
+			android:textColor="#000000"
+			/> 
+	</LinearLayout> 
+		<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/regle">  
+		<TextView 
+			android:id="@+id/tv4" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="Page 4"
+			android:textColor="#000000"
+			/> 
+	</LinearLayout> 
+		<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/regle">  
+		<TextView 
+			android:id="@+id/tv5" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="Page 5"
+			android:textColor="#000000"
+			/> 
+	</LinearLayout> 
+		<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/regle">  
+		<TextView 
+			android:id="@+id/tv6" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:text="Page 6"
+			android:textColor="#000000"
+			/> 
+	</LinearLayout> 
+    
+</ViewFlipper>
